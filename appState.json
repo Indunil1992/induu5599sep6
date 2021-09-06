@@ -1,0 +1,147 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "58e017bc-0c30-4fc3-afea-fff4b5f62345": {
+        "id": "58e017bc-0c30-4fc3-afea-fff4b5f62345",
+        "parent": null,
+        "name": "induu5599sep6.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induu5599sep6.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs12",
+          "handler": "handler",
+          "timeout": 75,
+          "memory": 256,
+          "triggerType": 0,
+          "name": "induu5599sep6"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1630932919656,
+        "testCases": {
+          "e8e52365-8f1f-4238-abfb-cd24bb209ad4": {
+            "id": "e8e52365-8f1f-4238-abfb-cd24bb209ad4",
+            "name": "Test event",
+            "functionId": "58e017bc-0c30-4fc3-afea-fff4b5f62345",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "cd1812ac-2144-46d6-a75f-85d2f73f5f5f": {
+        "id": "cd1812ac-2144-46d6-a75f-85d2f73f5f5f",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "9e5d9432-ce8a-4543-babc-dd0095b5762e": {
+        "id": "9e5d9432-ce8a-4543-babc-dd0095b5762e",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "be4feb83-485e-40eb-a7f4-6bc9d7850c46": {
+        "id": "be4feb83-485e-40eb-a7f4-6bc9d7850c46",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "095fb60c-c823-4253-b994-6a8f5b8f5c56": {
+        "id": "095fb60c-c823-4253-b994-6a8f5b8f5c56",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "58e017bc-0c30-4fc3-afea-fff4b5f62345"
+    ],
+    "currentFileId": "58e017bc-0c30-4fc3-afea-fff4b5f62345",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storagehiiinduuu": {
+        "name": "storagehiiinduuu",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "hiiinduuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "version": "2.983.0",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "induu5599sep6",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "europe-west1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1630933111582
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induu5599sep6",
+      "url": "https://github.com/Indunil1992/induu5599sep6"
+    }
+  }
+}
